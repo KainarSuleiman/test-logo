@@ -1,0 +1,13 @@
+# Виртуальное окружение
+venv/
+__pycache__/
+*.pyc
+
+# Датасет и веса — слишком тяжёлые для git
+data/
+weights/
+runs/
+
+# Служебные файлы Ultralytics
+*.cache
+*.pt
